@@ -60,14 +60,14 @@ class Puppies extends Component {
     return (
       <React.Fragment>
         <div className="row">
-          <div className="col-3">
+          <div className="col-md-3">
             <ListGroup
               dogSizes={dogSizes}
               onSizeChange={this.handleSizeChange}
               currentSizeId={currentSizeId}
             />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <p> Showing {filteredPuppies.length} puppies in the love bank.</p>
             <Form data={puppies} onDelete={this.handleDelete} />
             <Pagination

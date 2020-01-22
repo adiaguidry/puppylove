@@ -8,9 +8,9 @@ const Card = ({ _id, image, title, text, button }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
-        <Link to={`/blogFullPage/${_id}`} className="btn btn-primary">
+        {button && <Link to={`/blogFullPage/${_id}`} className="btn btn-primary">
           {button}
-        </Link>
+        </Link>}
       </div>
     </div>
   );

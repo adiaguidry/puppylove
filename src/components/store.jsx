@@ -42,7 +42,6 @@ class Store extends Component {
               title={card.title}
               text={card.text}
               _id={card._id}
-              button="Buy"
             />
           </div>
         ))}

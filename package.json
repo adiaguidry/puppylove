@@ -2,6 +2,7 @@
   "name": "puppylove",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://puppylove.adiaguidry.com/",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
