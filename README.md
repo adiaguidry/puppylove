@@ -1,4 +1,4 @@
-
+![](images/puppylove.png)
 
 
 # Puppy Finder App / Puppy Love
